@@ -1,4 +1,5 @@
  String a = jTextField2.getText();
+ String i = jTextField7.getText();
  int cc= Integer.parseInt(jTextField1.getText());
  int c = (cc*2);
  int hc =Integer.parseInt(jTextField3.getText());
@@ -10,4 +11,5 @@
  int co =Integer.parseInt(jTextField6.getText());
  int f = (co*5);
  int g = c+b+d+e+f;
-jLabel4.setText(a+"Amount to pay : "+g+"$");
+ int h =(g*5/100);
+jLabel4.setText(a+"Amount to pay : "+h+"$"+"Time :"+i+"(Tax Included)");
