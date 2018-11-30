@@ -1,0 +1,13 @@
+ String a = jTextField2.getText();
+ int cc= Integer.parseInt(jTextField1.getText());
+ int c = (cc*2);
+ int hc =Integer.parseInt(jTextField3.getText());
+ int b =(hc*2 );
+ int t =Integer.parseInt(jTextField4.getText());
+ int d =(t*1);
+ int m =Integer.parseInt(jTextField5.getText());
+ int e =(m*1);
+ int co =Integer.parseInt(jTextField6.getText());
+ int f = (co*5);
+ int g = c+b+d+e+f;
+jLabel4.setText(a+"Amount to pay : "+g+"$");
